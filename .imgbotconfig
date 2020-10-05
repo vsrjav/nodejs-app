@@ -1,0 +1,11 @@
+{
+    "schedule": "daily", // daily|weekly|monthly
+    "ignoredFiles": [
+    	"*.jpg",                   // by extension
+    	"image1.png",              // by filename
+    	"public/special_images/*", // by folderpath
+    ],
+    "aggressiveCompression": "true", // true|false
+    "compressWiki": "true", // true|false
+    "minKBReduced": 500 // set reduction threshold (default to 10)
+}
